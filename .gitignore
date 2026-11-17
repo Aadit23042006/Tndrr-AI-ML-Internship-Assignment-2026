@@ -1,0 +1,117 @@
+# ==========================================
+# PYTHON CACHE
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# JUPYTER / GOOGLE COLAB
+# ==========================================
+.ipynb_checkpoints/
+.profile/
+.ipython/
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+service-account*.json
+token.json
+
+# ==========================================
+# EDITORS & OPERATING SYSTEM
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ==========================================
+# LOGS & TEMPORARY FILES
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.old
+*.pid
+
+# ==========================================
+# LOCAL DATABASES
+# ==========================================
+*.sqlite3
+*.db
+
+# ==========================================
+# MODEL DOWNLOAD CACHES
+# ==========================================
+.cache/
+.huggingface/
+.transformers/
+ollama_cache/
+
+# ==========================================
+# TRAINING CHECKPOINTS
+# Exclude temporary checkpoints, not final adapters.
+# ==========================================
+checkpoint-*/
+lightning_logs/
+wandb/
+mlruns/
+
+# ==========================================
+# BUILD / DISTRIBUTION TEMPORARIES
+# ==========================================
+build/
+dist/
+*.egg-info/
+node_modules/
+
+# ==========================================
+# LARGE ARCHIVE / BACKUP FILES
+# ==========================================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ==========================================
+# KEEP REQUIRED ASSIGNMENT RESULTS
+# Do not ignore:
+# - Task 1 final LoRA adapter and train_summary.json
+# - Task 2 PDFs, questions.json and retrieval metrics
+# - Task 3 benchmark and concurrency results
+# - report/my_answers.md
+# - report/report.pdf
+# - README.md
+# ==========================================
